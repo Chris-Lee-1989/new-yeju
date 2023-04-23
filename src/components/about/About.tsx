@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 // import "aos/dist/aos.css";
 import { useScroll, useMouse } from 'ahooks';
 
-const About = React.forwardRef((props, ref: any) => {
+const About = () => {
 
     const mouse = useMouse();
     const scroll = useScroll();
@@ -11,7 +11,7 @@ const About = React.forwardRef((props, ref: any) => {
 
     return (
         <>
-            <div id="about-container" className="wrap" ref={ref}>
+            <div id="about-container" className="wrap">
                 
                 <div className="about_title">
 
@@ -160,6 +160,6 @@ const About = React.forwardRef((props, ref: any) => {
             `}</style>
         </>
     )
-})
+}
 
 export default About;
