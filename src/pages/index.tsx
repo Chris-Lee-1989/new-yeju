@@ -11,7 +11,7 @@ export default function Page() {
     // 마우스 포인터 위치
     const [mouseEvent, setMouseEvent] = useState(undefined);
 
-    const handleMouseMove=(e: any)=>{
+    const handleMouseMove=(e: any) => {
         setMouseEvent(e);
     }
 
@@ -34,7 +34,7 @@ export default function Page() {
     return (
         <>
             <div className="page" onMouseMove={(e)=>handleMouseMove(e)}>
-                <Mouse 
+                <Mouse
                     hoverClass={['menu', 'ham-menu']}
                     mouseEvent={mouseEvent}
                 />

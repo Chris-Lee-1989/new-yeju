@@ -128,9 +128,9 @@ export default React.forwardRef(function Main(props, ref: any) {
             }
             .content .text-part {}
             .content .image-part {transition: ${slideTime}ms; flex-basis: 0px; opacity: 0;}
-            .content .image-part.image-1 {background: url('/images/main_banner01.jpg') no-repeat center; background-attachment: fixed; background-size: cover;}
-            .content .image-part.image-2 {background: url('/images/main_banner02.jpg') no-repeat center; background-attachment: fixed; background-size: cover;}
-            .content .image-part.image-3 {background: url('/images/main_banner03.jpg') no-repeat center; background-attachment: fixed; background-size: cover;}
+            .content .image-part.image-1 {background: url('/images/main_banner01.jpg') no-repeat; background-attachment: fixed; background-position: right; background-size: contain;}
+            .content .image-part.image-2 {background: url('/images/main_banner02.jpg') no-repeat; background-attachment: fixed; background-position: right; background-size: contain;}
+            .content .image-part.image-3 {background: url('/images/main_banner03.jpg') no-repeat; background-attachment: fixed; background-position: right; background-size: contain;}
             .content .image-part.selected {transition: ${slideTime}ms; flex-basis: 700px; opacity: 1;}
             .content .empty {transition: ${slideTime}ms; background: black; flex-basis: 700px;}
             .content .empty.small {transition: ${slideTime}ms; background: black; flex-basis: 0px;}
