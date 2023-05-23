@@ -56,7 +56,7 @@ export default function Header({heights}: {heights: number[]}) {
 
     useLayoutEffect(() => {
         window.addEventListener("wheel", move, {passive: false});
-    }, []);
+    }, [move]);
 
     const moveScroll = (id: string) => {
         if (typeof window !== 'undefined') {

@@ -135,7 +135,7 @@ export default function Work({heights}: {heights: number[]}) {
                 }
             }, {passive: false});
         }
-    }, []);
+    }, [move]);
 
     return (
         <>

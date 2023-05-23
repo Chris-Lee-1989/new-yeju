@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useMemo, useRef, useState } from 'react'
+import React, { useMemo, useRef, useState } from 'react'
 import Headers from '@/components/layout/Header';
 import Main from '@/components/main/Main'
 import About from '@/components/about/About'

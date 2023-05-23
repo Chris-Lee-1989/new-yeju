@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect } from 'react'
+import React, { useEffect } from 'react'
 import {WorkerType} from './Work';
 import { useInViewport, useScroll } from 'ahooks';
 
