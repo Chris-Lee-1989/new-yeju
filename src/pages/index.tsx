@@ -2,7 +2,8 @@ import React, { useMemo, useRef, useState } from 'react'
 import Headers from '@/components/layout/Header';
 import Main from '@/components/main/Main'
 import About from '@/components/about/About'
-import Work from '@/components/work/Work';
+// import Work from '@/components/work/Work';
+import Work from '@/components/work/NewWork';
 import Contact from '@/components/contact/Contact';
 import Mouse from '@/components/layout/Mouse';
 
@@ -41,7 +42,7 @@ export default function Page() {
                 <Headers heights={heights} />
                 <Main />
                 <About />
-                <Work heights={heights} />
+                <Work />
                 <Contact />
             </div>
             <style jsx>{`

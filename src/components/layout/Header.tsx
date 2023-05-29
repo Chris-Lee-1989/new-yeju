@@ -61,8 +61,7 @@ export default function Header({heights}: {heights: number[]}) {
     const moveScroll = (id: string) => {
         if (typeof window !== 'undefined') {
             const target: any = document.querySelector(`#${id}-container`);
-            let offset = id === "work" ? target.offsetTop-100  : target.offsetTop;
-            window.scroll({top : offset , behavior: 'smooth'});
+            window.scroll({top : target.offsetTop , behavior: 'smooth'});
         }
     }
 
